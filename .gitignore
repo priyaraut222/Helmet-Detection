@@ -4,10 +4,12 @@
 # Allow project files
 !app.py
 !requirements.txt
+!README.md
 !train.ipynb
 !test.ipynb
 !yolo26n.pt
-!README.md
-
-# Allow gitignore itself
 !.gitignore
+
+# Allow pretrained model folder
+!pretrained_model/
+!pretrained_model/**
