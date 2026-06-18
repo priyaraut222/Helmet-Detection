@@ -1,19 +1,19 @@
 # 🪖 Smart Helmet Detection System
 
-An AI-powered Helmet Detection System built using **YOLOv8** and **Streamlit** to identify riders wearing helmets and riders without helmets from uploaded images.
+An AI-powered Helmet Detection System built using *YOLOv8* and *Streamlit* to identify riders wearing helmets and riders without helmets from uploaded images.
 
 The system performs object detection on uploaded images and highlights safety violations by classifying riders into:
 
 * 🟢 With Helmet
 * 🔴 Without Helmet
 
-This project demonstrates the application of **Computer Vision**, **Deep Learning**, and **Model Deployment** for road safety monitoring.
+This project demonstrates the application of *Computer Vision, **Deep Learning, and **Model Deployment* for road safety monitoring.
 
 ---
 
 # 🚀 Live Demo
 
-**Try the Application Here:**
+*Try the Application Here:*
 
 https://helmet-detection-76zflnymdv3fjpjixpfrde.streamlit.app/
 
@@ -21,7 +21,7 @@ https://helmet-detection-76zflnymdv3fjpjixpfrde.streamlit.app/
 
 # 📌 How It Works
 
-```text
+text
 Input Image
      │
      ▼
@@ -41,13 +41,13 @@ Bounding Boxes + Confidence Scores
      │
      ▼
 Detection Summary
-```
+
 
 ---
 
 # 📂 Project Structure
 
-```text
+text
 Helmet-Detection/
 │
 ├── app.py                     # Streamlit application
@@ -61,7 +61,7 @@ Helmet-Detection/
 ├── requirements.txt           # Project dependencies
 ├── README.md                  # Documentation
 └── .gitignore
-```
+
 
 ---
 
@@ -75,7 +75,7 @@ Helmet-Detection/
 
 ### Training Workflow
 
-```text
+text
 Dataset
    │
    ▼
@@ -89,7 +89,7 @@ Custom Training
    │
    ▼
 best.pt Generated
-```
+
 
 ### Inference Workflow
 
@@ -101,116 +101,3 @@ best.pt Generated
 6. Detection statistics are displayed.
 
 ---
-
-# ✨ Features
-
-* Helmet Detection using YOLOv8
-* Upload and analyze custom images
-* Bounding box visualization
-* Confidence score display
-* Rider count summary
-* Safety alert for riders without helmets
-* Interactive Streamlit Interface
-* Cloud Deployment using Streamlit Community Cloud
-* GitHub Version Control
-
----
-
-# 🛠️ Tech Stack
-
-| Layer               | Technology  |
-| ------------------- | ----------- |
-| Frontend            | Streamlit   |
-| Deep Learning       | YOLOv8      |
-| Computer Vision     | OpenCV      |
-| Image Processing    | Pillow      |
-| Numerical Computing | NumPy       |
-| Model Framework     | Ultralytics |
-| Language            | Python      |
-
----
-
-# ⚙️ Installation
-
-### Clone Repository
-
-```bash
-git clone https://github.com/priyaraut222/Helmet-Detection.git
-cd Helmet-Detection
-```
-
-### Create Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-Activate Environment:
-
-**Windows**
-
-```bash
-venv\Scripts\activate
-```
-
-**Linux/macOS**
-
-```bash
-source venv/bin/activate
-```
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Run Application
-
-```bash
-streamlit run app.py
-```
-
----
-
-# 📊 Output
-
-The application provides:
-
-* Annotated image with detections
-* Helmet/No Helmet classification
-* Detection confidence scores
-* Rider count summary
-* Safety alerts for violations
-
----
-
-# 🎯 Applications
-
-* Traffic Surveillance
-* Smart City Monitoring
-* Road Safety Enforcement
-* Automated Violation Detection
-* Transport Safety Analytics
-
----
-
-# 🔮 Future Scope
-
-* Video Detection Support
-* Real-Time CCTV Integration
-* Number Plate Recognition
-* Automated Fine Generation
-* Dashboard Analytics
-* Cloud-Based Monitoring System
-* Mobile Application Integration
-
-
-# ⭐ Project Highlights
-
-* Custom-Trained YOLOv8 Model
-* End-to-End Machine Learning Deployment
-* Computer Vision Based Safety Monitoring
-* Interactive Web Application
-* Streamlit Cloud Deployment
-* GitHub Hosted Project
