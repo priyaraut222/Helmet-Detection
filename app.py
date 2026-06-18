@@ -301,5 +301,5 @@ with tab2:
 st.markdown("---")
 
 st.caption(
-    "YOLOv8 Based Smart Helmet Detection System"
+    "YOLOv26 Based Smart Helmet Detection System"
 )
