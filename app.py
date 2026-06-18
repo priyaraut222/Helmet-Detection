@@ -18,7 +18,7 @@ st.set_page_config(
 # ==========================================
 # LOAD MODEL
 # ==========================================
-model = YOLO("runs/detect/train-3/weights/best.pt")
+model = YOLO("pretrained_model/best.pt")
 
 # ==========================================
 # LIVE DETECTION FUNCTION
