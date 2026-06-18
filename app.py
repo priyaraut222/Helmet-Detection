@@ -319,4 +319,3 @@ st.markdown("---")
 st.caption(
     "YOLOv8 Based Smart Helmet Detection System"
 )
-```
