@@ -50,9 +50,7 @@ with tab1:
 
     if uploaded_file is not None:
 
-        image = Image.open(
-            uploaded_file
-        ).convert("RGB")
+        image = Image.open(uploaded_file).convert("RGB")
 
         st.subheader("Original Image")
 
@@ -239,50 +237,15 @@ with tab2:
 
                 results = model.predict(
                     frame,
-                    conf=0.3,
+                    conf=0.1,
                     verbose=False
                 )
 
                 result = results[0]
 
-                for box in result.boxes:
+                annotated_frame = result.plot()
 
-                    cls_id = int(box.cls[0])
-                    confidence = float(box.conf[0])
-
-                    class_name = result.names[
-                        cls_id
-                    ]
-
-                    x1, y1, x2, y2 = map(
-                        int,
-                        box.xyxy[0]
-                    )
-
-                    if class_name == "With Helmet":
-                        color = (0, 255, 0)
-                    else:
-                        color = (0, 0, 255)
-
-                    cv2.rectangle(
-                        frame,
-                        (x1, y1),
-                        (x2, y2),
-                        color,
-                        3
-                    )
-
-                    cv2.putText(
-                        frame,
-                        f"{class_name} {confidence:.2f}",
-                        (x1, y1 - 10),
-                        cv2.FONT_HERSHEY_SIMPLEX,
-                        0.7,
-                        color,
-                        2
-                    )
-
-                out.write(frame)
+                out.write(annotated_frame)
 
                 frame_count += 1
 
