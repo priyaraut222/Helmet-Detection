@@ -101,3 +101,116 @@ best.pt Generated
 6. Detection statistics are displayed.
 
 ---
+
+# ✨ Features
+
+* Helmet Detection using YOLOv8
+* Upload and analyze custom images
+* Bounding box visualization
+* Confidence score display
+* Rider count summary
+* Safety alert for riders without helmets
+* Interactive Streamlit Interface
+* Cloud Deployment using Streamlit Community Cloud
+* GitHub Version Control
+
+---
+
+# 🛠️ Tech Stack
+
+| Layer               | Technology  |
+| ------------------- | ----------- |
+| Frontend            | Streamlit   |
+| Deep Learning       | YOLOv8      |
+| Computer Vision     | OpenCV      |
+| Image Processing    | Pillow      |
+| Numerical Computing | NumPy       |
+| Model Framework     | Ultralytics |
+| Language            | Python      |
+
+---
+
+# ⚙️ Installation
+
+### Clone Repository
+
+bash
+git clone https://github.com/priyaraut222/Helmet-Detection.git
+cd Helmet-Detection
+
+
+### Create Virtual Environment
+
+bash
+python -m venv venv
+
+
+Activate Environment:
+
+*Windows*
+
+bash
+venv\Scripts\activate
+
+
+*Linux/macOS*
+
+bash
+source venv/bin/activate
+
+
+### Install Dependencies
+
+bash
+pip install -r requirements.txt
+
+
+### Run Application
+
+bash
+streamlit run app.py
+
+
+---
+
+# 📊 Output
+
+The application provides:
+
+* Annotated image with detections
+* Helmet/No Helmet classification
+* Detection confidence scores
+* Rider count summary
+* Safety alerts for violations
+
+---
+
+# 🎯 Applications
+
+* Traffic Surveillance
+* Smart City Monitoring
+* Road Safety Enforcement
+* Automated Violation Detection
+* Transport Safety Analytics
+
+---
+
+# 🔮 Future Scope
+
+* Video Detection Support
+* Real-Time CCTV Integration
+* Number Plate Recognition
+* Automated Fine Generation
+* Dashboard Analytics
+* Cloud-Based Monitoring System
+* Mobile Application Integration
+
+
+# ⭐ Project Highlights
+
+* Custom-Trained YOLOv26 Model
+* End-to-End Machine Learning Deployment
+* Computer Vision Based Safety Monitoring
+* Interactive Web Application
+* Streamlit Cloud Deployment
+* GitHub Hosted Project
