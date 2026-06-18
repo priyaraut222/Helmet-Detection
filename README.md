@@ -94,7 +94,7 @@ best.pt Generated
 ### Inference Workflow
 
 1. Upload an image.
-2. The trained YOLOv26 model processes the image.
+2. The trained YOLO26 model processes the image.
 3. Riders are detected and classified.
 4. Bounding boxes are drawn around detected riders.
 5. Helmet status is identified.
@@ -104,7 +104,7 @@ best.pt Generated
 
 ## ✨ Features
 
-* Real-time Helmet Detection using YOLOv26
+* Real-time Helmet Detection using YOLO26
 * Upload and analyze custom images
 * Bounding box visualization
 * Confidence score display
