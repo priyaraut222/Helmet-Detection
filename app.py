@@ -31,6 +31,27 @@ st.markdown("""
 
 st.markdown("---")
 
+# SIDEBAR
+# ---------------------------
+st.sidebar.title("🪖 Helmet Detection")
+
+st.sidebar.info(
+    """
+    Helmet Detection using YOLO
+
+    Upload an image or video and the model will:
+    - Detect helmets
+    - Count helmets
+    - Display confidence scores
+
+    Developed by Priya Raut
+    Developed by Sakshi Shetye
+    Developed by Pragati Yerunkar
+    Developed by Gauravi Gangurde
+    """
+)
+
+
 # ==========================================
 # TABS
 # ==========================================
@@ -56,7 +77,7 @@ with tab1:
 
         st.image(
             image,
-            use_container_width=True
+            use_container_width=500
         )
 
         with tempfile.NamedTemporaryFile(
@@ -124,7 +145,7 @@ with tab1:
 
         st.image(
             annotated,
-            use_container_width=True
+            use_container_width= 500
         )
 
         col1, col2 = st.columns(2)
