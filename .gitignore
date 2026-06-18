@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# Allow project files
+!app.py
+!requirements.txt
+!train.ipynb
+!test.ipynb
+!yolo26n.pt
+!README.md
+
+# Allow gitignore itself
+!.gitignore
